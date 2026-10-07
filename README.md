@@ -11,10 +11,10 @@ I care about what happens around the model: **grounding, evals, provenance, perm
 | System | What it demonstrates | Evidence |
 |---|---|---|
 | **Legal Eye** | Production Hebrew legal RAG, source-grounded retrieval, verbatim citations, abstention and public evals | Public canonical eval: **0% fabricated citations**, **100% out-of-scope rejection (5/5)** and **0 FAIL** on the latest 50-question run |
-| **OrgState** | Multi-tenant operational intelligence, evidence trails, decision queues and production SaaS engineering | Tested pilot: **precision 1.0**, **recall 0.917**, **mean +4.5 days lead time** vs. a naive 3-sigma dashboard baseline |
-| **Real-Time Agentic Voice AI** | Telephony, streaming audio, speech processing, LLM reasoning, grounded business knowledge and controlled tool execution | Production preflight and authorization gates; representative commerce read improved from ~103.6 ms cold to ~13 ms warm |
-| **GYRO Core / Oracle** | AI control under uncertainty, evidence acquisition, risk/abstention, service orchestration and production infrastructure | Oracle-hosted production/canary services with Docker, Linux, CI/CD, health gates, backups and fail-closed release controls |
-| **Lecture Intelligence** | Long-form speech AI, transcription, segmentation, worker orchestration, selective repair and quality gates | Production-oriented lecture pipeline with benchmarked segmentation/transcription and targeted reprocessing of weak spans |
+| **[OrgState](case-studies/orgstate.md)** | Multi-tenant operational intelligence, evidence trails, decision queues and production SaaS engineering | Tested pilot: **precision 1.0**, **recall 0.917**, **mean +4.5 days lead time** vs. a naive 3-sigma dashboard baseline |
+| **[Real-Time Agentic Voice AI](case-studies/voice-ai.md)** | Telephony, streaming audio, speech processing, LLM reasoning, grounded business knowledge and controlled tool execution | Production preflight and authorization gates; representative commerce read improved from ~103.6 ms cold to ~13 ms warm |
+| **[GYRO Core / Oracle](case-studies/gyro-core.md)** | AI control under uncertainty, evidence acquisition, risk/abstention, service orchestration and production infrastructure | Oracle-hosted production/canary services with Docker, Linux, CI/CD, health gates, backups and fail-closed release controls |
+| **[Lecture Intelligence](case-studies/lecture-intelligence.md)** | Long-form speech AI, transcription, segmentation, worker orchestration, selective repair and quality gates | Production-oriented lecture pipeline with benchmarked segmentation/transcription and targeted reprocessing of weak spans |
 
 ## Public proof of work
 
